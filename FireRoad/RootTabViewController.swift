@@ -41,6 +41,7 @@ class RootTabViewController: UITabBarController, AuthenticationViewControllerDel
             UIMenuItem(title: MenuItemStrings.add, action: #selector(CourseThumbnailCell.add(_:))),
             UIMenuItem(title: MenuItemStrings.view, action: #selector(CourseThumbnailCell.viewDetails(_:))),
             UIMenuItem(title: MenuItemStrings.edit, action: #selector(CourseThumbnailCell.edit(_:))),
+            UIMenuItem(title: MenuItemStrings.delete, action: #selector(CourseThumbnailCell.delete(_:))),
             UIMenuItem(title: MenuItemStrings.rate, action: #selector(CourseThumbnailCell.rate(_:))),
             UIMenuItem(title: MenuItemStrings.mark, action: #selector(CourseThumbnailCell.mark(_:))),
             UIMenuItem(title: MenuItemStrings.warnings, action: #selector(CourseThumbnailCell.showWarnings(_:))),
